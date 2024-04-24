@@ -11,6 +11,7 @@ let nextId = 3;
 
 app.use(bodyParser.json());
 
+
 // Get all tasks
 app.get("/api/tasks", (req, res) => {
     res.json(tasks);
