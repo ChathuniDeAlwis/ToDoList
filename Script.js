@@ -16,6 +16,7 @@ function loadTasks() {
         .catch(error => console.error("Error loading tasks:", error));
 }
 
+
 function createTaskElement(task) {
     const taskElement = document.createElement("div");
     taskElement.classList.add("task");
